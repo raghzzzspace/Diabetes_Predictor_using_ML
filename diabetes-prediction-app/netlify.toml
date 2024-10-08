@@ -1,7 +1,0 @@
-[build]
-  functions = "functions"
-  publish = "client/build"  # Adjust this to point to your frontend build directory
-
-[dev]
-  functions = "functions"
-  publish = "client/build"  # Adjust this to point to your frontend build directory
