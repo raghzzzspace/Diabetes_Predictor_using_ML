@@ -1,0 +1,117 @@
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    background-color: #e9ecef;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+  
+.App {
+    max-width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease;
+}
+  
+.App:hover {
+    transform: translateY(-5px);
+}
+  
+h1 {
+    text-align: center;
+    color: #007bff;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+input {
+    padding: 12px;
+    margin: 12px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: all 0.2s ease-in-out;
+}
+  
+input:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+  
+button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+  
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+  
+/* Styling for result output */
+.prediction {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 25px;
+    color: #555;
+    padding: 20px;
+    border: 2px solid #007bff;
+    background-color: #e0f7fa;
+    width: fit-content;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Add subtle animations to input and button */
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+  
+input, button {
+    animation: fadeInUp 0.4s ease-in-out;
+}
+  
+/* Make the design more responsive */
+@media (max-width: 600px) {
+    .App {
+        padding: 20px;
+        margin: 20px;
+    }
+  
+    h1 {
+        font-size: 24px;
+    }
+  
+    input, button {
+        font-size: 14px;
+    }
+  
+    .prediction {
+        font-size: 16px;
+    }
+}
