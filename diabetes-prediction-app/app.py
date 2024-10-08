@@ -11,7 +11,7 @@ CORS(app)
 model = joblib.load('model.pkl')
 scaler = joblib.load('scaler.pkl')  # Load the StandardScaler used during training
 
-@app.route('/predict', methods=['POST'])
+@app.route('/api/predict', methods=['POST'])
 def predict():
     data = request.get_json()
 
