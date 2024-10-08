@@ -2,6 +2,7 @@
   "name": "diabetes-prediction-app",
   "version": "1.0.0",
   "main": "index.js",
+  "start": "python app.py",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
