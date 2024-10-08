@@ -1,1 +1,0 @@
-web: python app.py  # or use gunicorn if you want to run with a WSGI server
