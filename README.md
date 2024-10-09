@@ -34,9 +34,6 @@ This project employs the **Random Forest Classifier**, an ensemble learning meth
 
 The model is trained on the Pima Indians Diabetes Database, which contains various health parameters to predict diabetes. The dataset can be found at [Kaggle: Pima Indians Diabetes Database](https://www.kaggle.com/datasets/uciml/pima-indians-diabetes-database).
 
-## Installation
-
-To set up the project locally, follow these steps:
 
 ## Installation
 
