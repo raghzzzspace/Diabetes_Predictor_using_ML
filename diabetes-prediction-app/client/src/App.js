@@ -25,7 +25,7 @@ function App() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('http://localhost:5000/predict', formData);
+      const response = await axios.post('http://localhost:5000/api/predict', formData);
       console.log(response.data);
       setPrediction(response.data.prediction);
     } catch (error) {
