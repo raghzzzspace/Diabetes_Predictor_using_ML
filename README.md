@@ -49,12 +49,13 @@ To set up the project locally, follow these steps:
    cd Diabetes_Predictor_using_ML
 Install the required dependencies:
 
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
-Usage
+Usage:
+
 Start the Flask server:
 
-python app.py
+      python app.py
 
 Open your web browser and navigate to http://127.0.0.1:5000.
 
