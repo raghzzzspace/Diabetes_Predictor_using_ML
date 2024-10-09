@@ -19,7 +19,6 @@ This project employs the **Random Forest Classifier**, an ensemble learning meth
 - Predicts the likelihood of diabetes based on user input(females only).
 - Utilizes various machine learning algorithms for accurate predictions.
 - User-friendly interface for easy interaction.
-- Detailed output results including predictions and probabilities.
 
 ## Technologies Used
 
