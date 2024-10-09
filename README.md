@@ -25,7 +25,6 @@ This project employs the **Random Forest Classifier**, an ensemble learning meth
 - Python
 - Flask
 - NumPy
-- Pandas
 - Scikit-learn
 - Joblib
 - Flask-CORS
