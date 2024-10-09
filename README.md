@@ -38,6 +38,10 @@ The model is trained on the Pima Indians Diabetes Database, which contains vario
 
 To set up the project locally, follow these steps:
 
+## Installation
+
+To set up the project locally, follow these steps:
+
 1. Clone the repository:
 
    ```bash
@@ -45,15 +49,13 @@ To set up the project locally, follow these steps:
    cd Diabetes_Predictor_using_ML
 Install the required dependencies:
 
-bash
-Copy code
 pip install -r requirements.txt
+
 Usage
 Start the Flask server:
 
-bash
-Copy code
 python app.py
+
 Open your web browser and navigate to http://127.0.0.1:5000.
 
 Enter the necessary health parameters in the provided fields and click on the "Predict" button to get the diabetes prediction.
