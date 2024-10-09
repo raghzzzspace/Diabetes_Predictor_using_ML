@@ -60,3 +60,4 @@ Enter the necessary health parameters in the provided fields and click on the "P
 Contributing:
 
 Contributions are welcome! If you'd like to contribute, please fork the repository and submit a pull request.
+
