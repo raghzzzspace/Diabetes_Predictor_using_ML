@@ -1,6 +1,8 @@
 # Diabetes Predictor using Machine Learning
 
-This project is a Diabetes Predictor using Machine Learning algorithms. It aims to predict the likelihood of a person having diabetes based on various health parameters.
+## Algorithm Overview
+
+This project employs the **Random Forest Classifier**, an ensemble learning method that utilizes multiple decision trees to enhance prediction accuracy and reduce overfitting. With hyperparameter tuning using **GridSearchCV**, we achieved an impressive accuracy of **83%** on the test dataset. The model effectively handles imbalanced data through **SMOTE (Synthetic Minority Over-sampling Technique)**, generating synthetic samples for the minority class. The performance is further evaluated using metrics such as precision, F1-score, and ROC AUC, along with visualizations like confusion matrices and feature importance plots, providing insights into the key health parameters influencing diabetes prediction.
 
 ## Table of Contents
 
